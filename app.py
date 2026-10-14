@@ -6,7 +6,7 @@ import io
 
 # Configuración de la página (usamos 'wide' para aprovechar todo el ancho de la pantalla)
 st.set_page_config(
-    page_title="Analizador de Fonemas - MATLAB a Python",
+    page_title="Grabador de audio - MATLAB a Python",
     page_icon="🎙️",
     layout="wide"
 )
@@ -60,7 +60,7 @@ else:
 # --- PROCESAMIENTO MATEMÁTICO Y GRÁFICAS ---
 if senal is not None:
     st.markdown("---")
-    st.subheader("2. Resultados del Análisis Espectral")
+    st.subheader("2. Analisis de señales")
    
     # Procesamiento mono y normalización
     if len(senal.shape) > 1:
