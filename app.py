@@ -43,7 +43,7 @@ fs = None
 
 # Contenedor según el método elegido
 if metodo_entrada == "Grabar con el micrófono":
-    st.subheader(f"1. Grabación del letra: **'{fonema}'**")
+    st.subheader(f"1. Grabación de la letra: **'{fonema}'**")
     audio_bytes = st.audio_input("Haz clic en el micrófono para grabar:")
    
     if audio_bytes is not None:
